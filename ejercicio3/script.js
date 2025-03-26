@@ -6,3 +6,4 @@ for (let i = arreglo.length - 1; i >= 0; i--) {
     arregloNuevo.push(arreglo[i]);
 }
 console.log(arregloNuevo); 
+alert(arregloNuevo);

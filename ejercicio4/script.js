@@ -11,3 +11,4 @@ for (let i = 0; i < arreglo.length; i++) {
     }
 }
 console.log(mayor);
+alert(mayor);

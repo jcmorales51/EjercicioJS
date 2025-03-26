@@ -70,3 +70,5 @@ else {
 total = precioFinal * duracion;
 console.log(`El precio mensual con descuento es de ${precioFinal} MXN`);
 console.log(`El total a pagar por el curso es de ${total} MXN`);
+alert(`El precio mensual con descuento es de ${precioFinal} MXN`);
+alert(`El total a pagar por el curso es de ${total} MXN`);

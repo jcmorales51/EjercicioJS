@@ -21,17 +21,22 @@ let precio = 0;
 if (topping == "oreo") {
     precio = helado + oreo;
     console.log(`El helado con topping de oreo cuesta ${precio} MXN`);
+    alert(`El helado con topping de oreo cuesta ${precio} MXN`);
 }
 else if (topping == "kitkat") {
     precio = helado + kitkat;
     console.log(`El helado con topping de kitkat cuesta ${precio} MXN`);
+    alert(`El helado con topping de kitkat cuesta ${precio} MXN`);
 }
 else if (topping == "brownie") {
     precio = helado + brownie;
     console.log(`El helado con topping de brownie cuesta ${precio} MXN`);
+    alert
 }
 else {
     console.log("No tenemos este topping, lo sentimos.");
     console.log(`El helado sin topping cuesta ${helado} MXN`);
+    alert("No tenemos este topping, lo sentimos.");
+    alert(`El helado sin topping cuesta ${helado} MXN`);
 }
 

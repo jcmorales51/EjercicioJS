@@ -39,6 +39,7 @@ const library = [{
     for (let i = 0; i < library.length; i++) {
         if (library[i].readingStatus==true) {
             console.log(`El libro ${library[i].title} de ${library[i].author} se encuentra en estado de lectura true`);
+            alert(`El libro ${library[i].title} de ${library[i].author} se encuentra en estado de lectura true`);
         }
     }
 

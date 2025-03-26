@@ -12,3 +12,4 @@ for (let i = 0; i < arreglo.length; i++) {
     }
 }
 console.log(arregloPares);
+alert(arregloPares);
